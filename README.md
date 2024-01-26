@@ -118,49 +118,49 @@ For the simulations underlying the publication, all necessary simulation code an
    - To run all simulations underlying the publication, run spinflux_simulation_main.py. Please note that this requires significant calculation time.
    - To run specific simulations underlying the publication, call the function simulate(plotnumber). The argument plotnumber specifies the simulation type:
 		* 'SMLM': SMLM Benchmark
-                * '3-S4', '3-heatmap': Figure 3 & S4: 1 x-offset pattern, fixed signal photon budget
-                * '4de-S6', '4bc-heatmap': Figure 4b-e & S6: 2 x-separated patterns, fixed signal photon budget
-                * '4ij-S10', '4gh-heatmap': Figure 4g-j & S10: 3 patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget
-                * '5-S16', '5-heatmap': Figure 5 & S16: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget
-                * 'S2': Figure S2: Effect of pinhole discretization on CRLB.
-                * 'S5': Figure S5: 1 y-offset pattern, fixed signal photon budget
-                * 'S7': Figure S7: 2 x-separated patterns with y-offset, fixed signal photon budget
-                * 'S8': Figure S8: 2 x-separated patterns without pinholes, fixed signal photon budget
-                * 'S9': Figure S9: 2 y-separated patterns, fixed signal photon budget
-                * 'S11': Figure S11: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget
-                * 'S12': Figure S12: 4 patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget
-                * 'S13': Figure S13: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget
-                * 'S14': Figure S14: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget
-                * 'S15': Figure S15: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget
-                * 'S17': Figure S17: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget                
-                * 'S18': Figure S18: 1 x-offset pattern, fixed illumination power and time
-                * 'S19': Figure S19: 1 y-offset pattern, fixed illumination power and time
-                * 'S20': Figure S20: 2 x-separated patterns, fixed illumination power and time
-                * 'S21': Figure S21: 2 x-separated patterns with y-offset, fixed illumination power and time
-                * 'S22': Figure S22: 2 x-separated patterns without pinholes, fixed illumination power and time
-                * 'S23': Figure S23: 2 y-separated patterns, fixed illumination power and time
-                * 'S24': Figure S24: 3 patterns in equilateral triangle configuration without center pinhole, fixed illumination power and time
-                * 'S25': Figure S25: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed illumination power and time
-                * 'S26': Figure S26: 4 patterns in equilateral triangle configuration with center pinhole, fixed illumination power and time
-                * 'S27': Figure S27: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed illumination power and time
-                * 'S28': Figure S28: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed illumination power and time
-                * 'S29': Figure S29: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed illumination power and time
-                * 'S30': Figure S30: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed fixed illumination power and time
-                * 'S31': Figure S31: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed illumination power and time
-                * 'S32': Figure S32: 1 x-offset pattern, fixed signal photon budget with pattern-independent background
-                * 'S33': Figure S33: 1 y-offset pattern, fixed signal photon budget with pattern-independent background
-                * 'S34': Figure S34: 2 x-separated patterns, fixed signal photon budget with pattern-independent background
-                * 'S35': Figure S35: 2 x-separated patterns with y-offset, fixed signal photon budget with pattern-independent background
-                * 'S36': Figure S36: 2 x-separated patterns without pinholes, fixed signal photon budget with pattern-independent background
-                * 'S37': Figure S37: 2 y-separated patterns, fixed signal photon budget with pattern-independent background
-                * 'S38': Figure S38: 3 patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S39': Figure S39: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S40': Figure S40: 4 patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S41': Figure S41: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S42': Figure S42: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S43': Figure S43: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S44': Figure S44: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S45': Figure S45: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background  
+        * '3-S4', '3-heatmap': Figure 3 & S4: 1 x-offset pattern, fixed signal photon budget
+        * '4de-S6', '4bc-heatmap': Figure 4b-e & S6: 2 x-separated patterns, fixed signal photon budget
+        * '4ij-S10', '4gh-heatmap': Figure 4g-j & S10: 3 patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget
+        * '5-S16', '5-heatmap': Figure 5 & S16: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget
+        * 'S2': Figure S2: Effect of pinhole discretization on CRLB.
+        * 'S5': Figure S5: 1 y-offset pattern, fixed signal photon budget
+        * 'S7': Figure S7: 2 x-separated patterns with y-offset, fixed signal photon budget
+        * 'S8': Figure S8: 2 x-separated patterns without pinholes, fixed signal photon budget
+        * 'S9': Figure S9: 2 y-separated patterns, fixed signal photon budget
+        * 'S11': Figure S11: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget
+        * 'S12': Figure S12: 4 patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget
+        * 'S13': Figure S13: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget
+        * 'S14': Figure S14: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget
+        * 'S15': Figure S15: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget
+        * 'S17': Figure S17: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget                
+        * 'S18': Figure S18: 1 x-offset pattern, fixed illumination power and time
+        * 'S19': Figure S19: 1 y-offset pattern, fixed illumination power and time
+        * 'S20': Figure S20: 2 x-separated patterns, fixed illumination power and time
+        * 'S21': Figure S21: 2 x-separated patterns with y-offset, fixed illumination power and time
+        * 'S22': Figure S22: 2 x-separated patterns without pinholes, fixed illumination power and time
+        * 'S23': Figure S23: 2 y-separated patterns, fixed illumination power and time
+        * 'S24': Figure S24: 3 patterns in equilateral triangle configuration without center pinhole, fixed illumination power and time
+        * 'S25': Figure S25: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed illumination power and time
+        * 'S26': Figure S26: 4 patterns in equilateral triangle configuration with center pinhole, fixed illumination power and time
+        * 'S27': Figure S27: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed illumination power and time
+        * 'S28': Figure S28: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed illumination power and time
+        * 'S29': Figure S29: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed illumination power and time
+        * 'S30': Figure S30: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed fixed illumination power and time
+        * 'S31': Figure S31: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed illumination power and time
+        * 'S32': Figure S32: 1 x-offset pattern, fixed signal photon budget with pattern-independent background
+        * 'S33': Figure S33: 1 y-offset pattern, fixed signal photon budget with pattern-independent background
+        * 'S34': Figure S34: 2 x-separated patterns, fixed signal photon budget with pattern-independent background
+        * 'S35': Figure S35: 2 x-separated patterns with y-offset, fixed signal photon budget with pattern-independent background
+        * 'S36': Figure S36: 2 x-separated patterns without pinholes, fixed signal photon budget with pattern-independent background
+        * 'S37': Figure S37: 2 y-separated patterns, fixed signal photon budget with pattern-independent background
+        * 'S38': Figure S38: 3 patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S39': Figure S39: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S40': Figure S40: 4 patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S41': Figure S41: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S42': Figure S42: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S43': Figure S43: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S44': Figure S44: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S45': Figure S45: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background  
 6. The simulation data will be saved in the directory "/spinflux-crlb/SimData/".
 
 7. To do additional simulations, repeat step 7 to run the simulations.
@@ -188,49 +188,49 @@ This section describes how to use the existing simulation data from https://doi.
    - To produce specific figures underlying the publication, call the function plot(plotnumber, panel). 
    - The argument plotnumber specifies the simulation type:
 		* 'SMLM': SMLM Benchmark
-                * '3-S4', '3-heatmap': Figure 3 & S4: 1 x-offset pattern, fixed signal photon budget
-                * '4de-S6', '4bc-heatmap': Figure 4b-e & S6: 2 x-separated patterns, fixed signal photon budget
-                * '4ij-S10', '4gh-heatmap': Figure 4g-j & S10: 3 patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget
-                * '5-S16', '5-heatmap': Figure 5 & S16: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget
-                * 'S2': Figure S2: Effect of pinhole discretization on CRLB.
-                * 'S5': Figure S5: 1 y-offset pattern, fixed signal photon budget
-                * 'S7': Figure S7: 2 x-separated patterns with y-offset, fixed signal photon budget
-                * 'S8': Figure S8: 2 x-separated patterns without pinholes, fixed signal photon budget
-                * 'S9': Figure S9: 2 y-separated patterns, fixed signal photon budget
-                * 'S11': Figure S11: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget
-                * 'S12': Figure S12: 4 patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget
-                * 'S13': Figure S13: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget
-                * 'S14': Figure S14: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget
-                * 'S15': Figure S15: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget
-                * 'S17': Figure S17: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget                
-                * 'S18': Figure S18: 1 x-offset pattern, fixed illumination power and time
-                * 'S19': Figure S19: 1 y-offset pattern, fixed illumination power and time
-                * 'S20': Figure S20: 2 x-separated patterns, fixed illumination power and time
-                * 'S21': Figure S21: 2 x-separated patterns with y-offset, fixed illumination power and time
-                * 'S22': Figure S22: 2 x-separated patterns without pinholes, fixed illumination power and time
-                * 'S23': Figure S23: 2 y-separated patterns, fixed illumination power and time
-                * 'S24': Figure S24: 3 patterns in equilateral triangle configuration without center pinhole, fixed illumination power and time
-                * 'S25': Figure S25: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed illumination power and time
-                * 'S26': Figure S26: 4 patterns in equilateral triangle configuration with center pinhole, fixed illumination power and time
-                * 'S27': Figure S27: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed illumination power and time
-                * 'S28': Figure S28: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed illumination power and time
-                * 'S29': Figure S29: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed illumination power and time
-                * 'S30': Figure S30: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed fixed illumination power and time
-                * 'S31': Figure S31: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed illumination power and time
-                * 'S32': Figure S32: 1 x-offset pattern, fixed signal photon budget with pattern-independent background
-                * 'S33': Figure S33: 1 y-offset pattern, fixed signal photon budget with pattern-independent background
-                * 'S34': Figure S34: 2 x-separated patterns, fixed signal photon budget with pattern-independent background
-                * 'S35': Figure S35: 2 x-separated patterns with y-offset, fixed signal photon budget with pattern-independent background
-                * 'S36': Figure S36: 2 x-separated patterns without pinholes, fixed signal photon budget with pattern-independent background
-                * 'S37': Figure S37: 2 y-separated patterns, fixed signal photon budget with pattern-independent background
-                * 'S38': Figure S38: 3 patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S39': Figure S39: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S40': Figure S40: 4 patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S41': Figure S41: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S42': Figure S42: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S43': Figure S43: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S44': Figure S44: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
-                * 'S45': Figure S45: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background  
+        * '3-S4', '3-heatmap': Figure 3 & S4: 1 x-offset pattern, fixed signal photon budget
+        * '4de-S6', '4bc-heatmap': Figure 4b-e & S6: 2 x-separated patterns, fixed signal photon budget
+        * '4ij-S10', '4gh-heatmap': Figure 4g-j & S10: 3 patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget
+        * '5-S16', '5-heatmap': Figure 5 & S16: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget
+        * 'S2': Figure S2: Effect of pinhole discretization on CRLB.
+        * 'S5': Figure S5: 1 y-offset pattern, fixed signal photon budget
+        * 'S7': Figure S7: 2 x-separated patterns with y-offset, fixed signal photon budget
+        * 'S8': Figure S8: 2 x-separated patterns without pinholes, fixed signal photon budget
+        * 'S9': Figure S9: 2 y-separated patterns, fixed signal photon budget
+        * 'S11': Figure S11: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget
+        * 'S12': Figure S12: 4 patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget
+        * 'S13': Figure S13: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget
+        * 'S14': Figure S14: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget
+        * 'S15': Figure S15: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget
+        * 'S17': Figure S17: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget                
+        * 'S18': Figure S18: 1 x-offset pattern, fixed illumination power and time
+        * 'S19': Figure S19: 1 y-offset pattern, fixed illumination power and time
+        * 'S20': Figure S20: 2 x-separated patterns, fixed illumination power and time
+        * 'S21': Figure S21: 2 x-separated patterns with y-offset, fixed illumination power and time
+        * 'S22': Figure S22: 2 x-separated patterns without pinholes, fixed illumination power and time
+        * 'S23': Figure S23: 2 y-separated patterns, fixed illumination power and time
+        * 'S24': Figure S24: 3 patterns in equilateral triangle configuration without center pinhole, fixed illumination power and time
+        * 'S25': Figure S25: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed illumination power and time
+        * 'S26': Figure S26: 4 patterns in equilateral triangle configuration with center pinhole, fixed illumination power and time
+        * 'S27': Figure S27: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed illumination power and time
+        * 'S28': Figure S28: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed illumination power and time
+        * 'S29': Figure S29: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed illumination power and time
+        * 'S30': Figure S30: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed fixed illumination power and time
+        * 'S31': Figure S31: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed illumination power and time
+        * 'S32': Figure S32: 1 x-offset pattern, fixed signal photon budget with pattern-independent background
+        * 'S33': Figure S33: 1 y-offset pattern, fixed signal photon budget with pattern-independent background
+        * 'S34': Figure S34: 2 x-separated patterns, fixed signal photon budget with pattern-independent background
+        * 'S35': Figure S35: 2 x-separated patterns with y-offset, fixed signal photon budget with pattern-independent background
+        * 'S36': Figure S36: 2 x-separated patterns without pinholes, fixed signal photon budget with pattern-independent background
+        * 'S37': Figure S37: 2 y-separated patterns, fixed signal photon budget with pattern-independent background
+        * 'S38': Figure S38: 3 patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S39': Figure S39: 3 patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S40': Figure S40: 4 patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S41': Figure S41: 4 patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S42': Figure S42: 3 doughnut-patterns in equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S43': Figure S43: 3 doughnut-patterns in 90 degree rotated equilateral triangle configuration without center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S44': Figure S44: 4 doughnut-patterns in equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background
+        * 'S45': Figure S45: 4 doughnut-patterns in 90 degree rotated equilateral triangle configuration with center pinhole, fixed signal photon budget with pattern-independent background  
    - The argument panel specifies the panel to create:
 		* 0: Legend
 		* 1: CRLB as a function of spatial difference between pattern focus and emitter position
